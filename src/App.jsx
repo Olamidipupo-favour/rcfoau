@@ -244,7 +244,7 @@ function App() {
         <footer className="footer bg-red-500 relative md:pt-3 md:mt-2 border-b-2 border-red-500 pt-5 mt-4">
           {/* make a picture background for the footer */}
           <img
-            className="w-screen h-screen md:h-64 left-0  object-cover"
+            className="w-screen h-32 md:h-64 left-0  object-cover"
             src={footer}
             alt="Footer"
           />
