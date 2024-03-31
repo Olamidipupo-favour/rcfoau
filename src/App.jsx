@@ -93,32 +93,32 @@ function App() {
           {/* create a dropdown for mobile screens */}
           {/* <div className="absolute top-[10.6%] left-0 w-full h-full bg-black opacity-50"></div>*/}
           <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center md:items-start  pl-5 pt-3">
-            <h1 className="text-xl font-bold text-black dark:text-white mb-4 justify-start md:w-[45%]">
+            <h1 className="text-xl font-bold text-white mb-4 justify-start md:w-[45%]">
               ✦ What we envision
             </h1>
-            <h1 className="text-4xl font-bold text-black dark:text-white mb-4 justify-start md:w-[45%]">
+            <h1 className="text-4xl font-bold text-white mb-4 justify-start md:w-[45%]">
               A billion souls...
             </h1>
-            <h1 className="text-2xl font-bold text-black dark:text-white mb-4 justify-start md:w-[45%]">
+            <h1 className="text-2xl font-bold text-white mb-4 justify-start md:w-[45%]">
               in 10,000 cities!
             </h1>
-            <h1 className="text-lg font-bold text-black dark:text-white mb-4 justify-start md:w-[30%]">
+            <h1 className="text-lg font-bold text-white mb-4 justify-start md:w-[30%]">
               We envision all men celebrating endless life in Christ. Our reach
               is to the ends of the earth, we are redeploying people in Christ,
               for Christ, with Joy.
             </h1>
             <div>
-              <button className="bg-red-500 hover:bg-transparent px-3 py-2 rounded-md text-sm font-medium text-black dark:text-white mr-5">
+              <button className="bg-red-500 hover:bg-transparent px-3 py-2 rounded-md text-sm font-medium text-white mr-5">
                 <FaInfoCircle className="inline" /> Who we are
               </button>
-              <button className="bg-transparent hover:text-red-500 hover:border-red-500 px-3 py-2 rounded-md text-sm font-medium text-black dark:text-white">
+              <button className="bg-transparent hover:text-red-500 hover:border-red-500 px-3 py-2 rounded-md text-sm font-medium text-white">
                 Contact Us
               </button>
             </div>
-            <p className="text-black dark:text-white">
+            <p className="text-white">
               Lorem <code>Ipsum Dolor</code> sit amet
             </p>
-            <p className="text-black dark:text-white">
+            <p className="text-white">
               <a
                 className="text-blue-400 hover:underline"
                 href="#"
@@ -256,7 +256,7 @@ function App() {
                 <div className="flex flex-col md:flex-row">
                   <img className="object-fit h-32 w-32 rounded-md" src={dominant}/>
                   <div className="flex flex-col mx-7">
-                  <span className="font-bold text-black dark:text-white uppercase mb-2 flex">
+                  <span className="font-bold text-white uppercase mb-2 flex">
                     Family SONG
                   </span>
                   <span className="md:my-2">
@@ -269,7 +269,7 @@ function App() {
                   </div>
                 </div>
                 <div className="flex-col flex">
-                  <span className="font-bold text-black dark:text-white uppercase mt-4 md:mt-0 mb-2">
+                  <span className="font-bold text-white uppercase mt-4 md:mt-0 mb-2">
                     FOLLOW US
                   </span>
                   <div className="flex flex-col">
