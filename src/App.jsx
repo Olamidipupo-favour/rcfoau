@@ -1,12 +1,9 @@
 import "./index.css";
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import bgvideo from "/bg-1-vid.mp4";
 import dominant from "/dominant.jpg";
 import about from "/about.jpg";
 //import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Link, useNavigate } from "react-router-dom";
-import rccg from "/RCCG-LOGO-PNG.jpg";
 import footer from "/footer.jpg";
 import { FaInfoCircle } from "react-icons/fa";
 import { Fade, Bounce } from "react-awesome-reveal";
@@ -88,7 +85,7 @@ function App() {
             loop
             muted
             playsInline
-            src="/bg-1-vid.mp4"
+            src={bgvideo}
           ></video>
           {/* create a nav bar for bigger screens */}
           {/* create a dropdown for mobile screens */}
