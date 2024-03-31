@@ -3,15 +3,17 @@ import bgvideo from "/bg-1-vid.mp4";
 import dominant from "/dominant.jpg";
 import about from "/about.jpg";
 //import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { Link , useNavigate} from "react-router-dom";
 import footer from "/footer.jpg";
 import { FaInfoCircle } from "react-icons/fa";
+import {FaTwitter, FaFacebook, FaInstagram, FaYoutube} from "react-icons/fa";
 import {Bounce } from "react-awesome-reveal";
 //import react-helmet
 import { Helmet } from "react-helmet";
 //import "./index.css";
 
 function App() {
+  const navigate = useNavigate();
   return (
     <>
       <Helmet>
@@ -242,170 +244,52 @@ function App() {
         <footer className="footer bg-red-500 relative md:pt-3 md:mt-2 border-b-2 border-red-500 pt-5 mt-4">
           {/* make a picture background for the footer */}
           <img
-            className="w-screen h-screen md:h-screen left-0  object-cover"
+            className="w-screen h-screen md:h-64 left-0  object-cover"
             src={footer}
             alt="Footer"
           />
           {/* add a black overlay */}
           <div className="absolute top-0 left-0 w-full h-full  bg-black opacity-50"></div>
           <div className="absolute top-0  left-0 w-full h-full container mx-auto px-6">
-            <div className="sm:flex sm:mt-8">
+            <div className="sm:flex sm:mt-8 ">
               <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
-                <div className="flex flex-col">
-                  <span className="font-bold text-black dark:text-white uppercase mb-2">
-                    Footer header 1
+                <div className="flex flex-col md:flex-row">
+                  <img className="object-fit h-32 w-32 rounded-md" src={dominant}/>
+                  <div className="flex flex-col mx-7">
+                  <span className="font-bold text-black dark:text-white uppercase mb-2 flex">
+                    Family SONG
                   </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 1
-                    </a>
+                  <span className="md:my-2">
+                  wE'RE A DOMINANT AM, A ROYAL PRIESTHOO  HOLY NATION, DOMINANT AMY 
+                  CALLED TO SHOW FORTH THE PRAISES OF HIM WHO HATH CALLED US OUT OF FARKNESS INTO HIS PERFECT LIGHT.
+                  sO WE SING TO THE LORD 
+                  fOR HIS PROMISE TO US. fOR HIS BLOOD THAT WAS SHED FPR HE'S RISEN FROM THE DEAD.
+                  fO
                   </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 2
-                    </a>
-                  </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 3
-                    </a>
-                  </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 4
-                    </a>
-                  </span>
+                  </div>
                 </div>
                 <div className="flex-col flex">
                   <span className="font-bold text-black dark:text-white uppercase mt-4 md:mt-0 mb-2">
-                    Footer header 2
+                    FOLLOW US
                   </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 1
-                    </a>
+                  <div className="flex flex-col">
+                  <pre className="md:my-2 font-bold">
+                   follow us across all social media
+                  </pre>
+                  <span className="my-2 flex flex-row p-1">
+<FaTwitter className="text-blue-400 hover:underline mx-1" />
+<FaFacebook className="text-blue-400 hover:underline mx-1" />
+<FaInstagram className="text-blue-400 hover:underline mx-1" />
+<FaYoutube className="text-blue-400 hover:underline mx-1" />
                   </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 2
-                    </a>
-                  </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 3
-                    </a>
-                  </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 4
-                    </a>
-                  </span>
-                </div>
-                <div className="flex flex-col">
-                  <span className="font-bold text-black dark:text-white uppercase mt-4 md:mt-0 mb-2">
-                    Footer header 3
-                  </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 1
-                    </a>
-                  </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 2
-                    </a>
-                  </span>
-                </div>
-                <div className="hidden md:flex flex-col">
-                  <span className="font-bold text-black dark:text-white uppercase mt-4 md:mt-0 mb-2">
-                    Footer header 4
-                  </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 1
-                    </a>
-                  </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 2
-                    </a>
-                  </span>
-                  <span className="my-2">
-                    <a
-                      className="text-blue-400 hover:underline"
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link 3
-                    </a>
-                  </span>
+                  </div>
+                 
                 </div>
                 {/* add copyright ino
                  */}
               </div>
             </div>
-            <p className="text-center underline font-mono text-xl">
+            <p className="text-center underline font-mono text-xl md:absolute md:bottom-0 left-[50%]">
               ©2023 Dipo for RCFOAU
             </p>
           </div>
