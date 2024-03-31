@@ -259,7 +259,7 @@ function App() {
                   <span className="font-bold text-white uppercase mb-2 flex">
                     Family SONG
                   </span>
-                  <span className="md:my-2">
+                  <span className="md:my-2 text-white">
                   wE'RE A DOMINANT AM, A ROYAL PRIESTHOO  HOLY NATION, DOMINANT AMY 
                   CALLED TO SHOW FORTH THE PRAISES OF HIM WHO HATH CALLED US OUT OF FARKNESS INTO HIS PERFECT LIGHT.
                   sO WE SING TO THE LORD 
@@ -273,7 +273,7 @@ function App() {
                     FOLLOW US
                   </span>
                   <div className="flex flex-col">
-                  <pre className="md:my-2 font-bold">
+                  <pre className="md:my-2 font-bold text-white">
                    follow us across all social media
                   </pre>
                   <span className="my-2 flex flex-row p-1">
@@ -289,7 +289,7 @@ function App() {
                  */}
               </div>
             </div>
-            <p className="text-center underline font-mono text-xl md:absolute md:bottom-0 left-[50%]">
+            <p className="text-center underline font-mono text-xl md:absolute md:bottom-0 left-[50%] text-white">
               ©2023 Dipo for RCFOAU
             </p>
           </div>
